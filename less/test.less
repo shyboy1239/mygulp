@@ -1,7 +1,16 @@
+/*变量
 @red:black;
 header{
 	color:@red;
 }
 h1{
 	color:@red;
+}
+/*混合
+.block(@w,@h){
+	width:@w;
+	height:@h;
+}
+div{
+	.block(300px,200px);
 }

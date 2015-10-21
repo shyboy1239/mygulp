@@ -1,6 +1,10 @@
 header {
-  color: white;
+  color: black;
 }
 h1 {
-  color: white;
+  color: black;
+}
+div {
+  width: 300px;
+  height: 200px;
 }
